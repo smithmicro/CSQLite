@@ -1,3 +1,6 @@
+// swift-tools-version:4.0
+import PackageDescription
 
-// an empty Package.swift is required or the Swift Package Manager will emit:
-// error: NoManifest(".../Package.swift")
+var package = Package(
+    name: "CSQLite"
+)
